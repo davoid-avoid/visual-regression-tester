@@ -27,7 +27,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@gitlab.invivo.ca:dev/visual-regression-tester.git"
+    "url": "git@github.com:davoid-avoid/visual-regression-tester.git"
   },
   "author": "david rowe",
   "license": "ISC"
