@@ -1,0 +1,35 @@
+To run:
+
+You will need a global install of webdriver-manager running:
+
+npm i -g webdriver-manager
+webdriver-manager update
+webdriver-manager start
+
+
+Add this script line to your package json to run this module:
+
+"visual-regression-tester": "npm explore visual-regression-tester -- npm run runtest --"
+
+run via:
+
+npm run visual-regression-tester -- [options]
+
+options:
+
+--params.screenshots=all (take screenshots of all steps)
+--params.width=X
+--params.height=X
+(set browser width and height)
+
+--suite=X
+(run a subset of test specs as specified in your config file)
+
+running other browsers:
+change the browser in the config file
+
+For spec writing, documentation forthcoming
+
+For cover images for output pdf:
+
+make sure screenShotPackage/coverImage directory exists, use "cover.png" as your cover image, and set "cover" to true in your screenshotPackage.js file
