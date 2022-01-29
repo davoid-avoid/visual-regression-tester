@@ -33,7 +33,8 @@ let conf = {
     width: userConfig.userConfig.width,
     height: userConfig.userConfig.height,
     
-    threshold: userConfig.userConfig.treshold
+    threshold: userConfig.userConfig.treshold,
+    cooldown: userConfig.userConfig.cooldown
   },
 
   exclude: [],
